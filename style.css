@@ -30,30 +30,20 @@
     --darkcharcoal: hsl(24, 5%, 18%);
 }
 
-@media only screen and (min-width: 375px) {
-    
-    body {
-        font-size: 14px; 
-    }
-
-    .container {
-        width: 90%;
-    }
-
-    .imagem {
-        width: 100%; 
-    }
-
-    td {
-        width: auto;
-    }
-}
-
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@media only screen and (max-width: 530px) {
+
+    .container {
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+}
+
+
 body {
-    min-width: 375px;
     background-color: var(--eggshell);
 }
 
@@ -69,7 +59,9 @@ main {
     padding: 40px;
     background-color: var(--white);
     border-radius: 25px;
-    width: 60%;
+    max-width: 700px;
+    min-width: 375;
+    height: auto;
 }
 
 .imagem {

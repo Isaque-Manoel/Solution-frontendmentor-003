@@ -31,22 +31,10 @@
 }
 
 @media only screen and (max-width: 375px) {
-    
-    body {
-        font-size: 14px; 
-    }
-
     .container {
         width: 90%;
     }
 
-    .imagem {
-        width: 100%; 
-    }
-
-    td {
-        width: auto;
-    }
 }
 
 .attribution { font-size: 11px; text-align: center; }

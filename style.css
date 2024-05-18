@@ -66,9 +66,9 @@ main {
 
 .container {
     margin: 5%;
-    padding: 30px;
+    padding: 40px;
     background-color: var(--white);
-    border-radius: 30px;
+    border-radius: 25px;
     width: 700px;
 }
 
@@ -119,7 +119,8 @@ h1 {
 }
 
 .ingredients {
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-radius: 15px;
 }
 
@@ -134,7 +135,8 @@ h1 {
 }
 
 .instructions {
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-radius: 15px;
 }
 
@@ -154,6 +156,7 @@ h1 {
 
 .nutricion {
     padding-top: 30px;
+    
     border-radius: 15px;
 }
 

@@ -30,11 +30,23 @@
     --darkcharcoal: hsl(24, 5%, 18%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
+    
+    body {
+        font-size: 14px; 
+    }
+
     .container {
         width: 90%;
     }
 
+    .imagem {
+        width: 100%; 
+    }
+
+    td {
+        width: auto;
+    }
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -57,7 +69,7 @@ main {
     padding: 40px;
     background-color: var(--white);
     border-radius: 25px;
-    width: 700px;
+    width: 60%;
 }
 
 .imagem {

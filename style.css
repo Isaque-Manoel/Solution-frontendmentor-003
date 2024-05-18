@@ -60,6 +60,11 @@ main {
     align-items: center;
 }
 
+hr {
+    opacity: 0.5;
+
+}
+
 .container {
     margin: 5%;
     padding: 40px;
@@ -182,6 +187,6 @@ td {
     font-weight: bold;
 }
 
-#lastline {
+.lastline {
     border-bottom: none;
 }

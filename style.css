@@ -40,6 +40,12 @@
         padding: 0px;
         width: 100%;
     }
+
+    .imagem {
+        border-radius: 0px;
+        width: 100%;
+        height: auto;
+}
 }
 
 
